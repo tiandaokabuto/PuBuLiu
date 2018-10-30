@@ -1,0 +1,24 @@
+*{  
+    margin:0;
+	padding:0;
+}
+#main{  
+    position:relative;
+}
+/*盒子和盒子之间的距离padding实现*/
+.box{  
+    padding:15px 0 0 15px;
+	float:left;
+}
+/*包裹图片的盒子的样式*/
+.pic{  
+    padding:10px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	box-shadow:0 0 5px #ccc;
+}
+/*图片等宽不等高*/
+.pic img{  
+    height:auto;
+	width:165px;
+}
